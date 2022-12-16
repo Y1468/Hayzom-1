@@ -1,0 +1,235 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;900 & family= Source+Sans+Pro:wght@300;900 & display=swap' );
+
+
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  vertical-align:baseline;
+  text-decoration:none;
+  font-family: ;
+  font-weight:300;
+  list-style:none;
+}
+
+header section{
+  
+   justify-content:space-between ;
+   align-items:center;
+   align-items:center;
+}
+
+header nav ul{
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+}
+
+header nav ul li a{
+    margin:0px 15px;
+    color:#3399cc;
+}
+
+.btn{
+  padding:5px 20px; 
+  border-radius:20px; 
+} 
+
+.btn.btn-laranja{
+    background:#ff6633;
+    color:white;
+}
+
+.container{
+    width:1024px;
+   margin:30px auto;
+   display:flex;
+   flex-direction:column;
+}
+
+.row{
+   display:flex;
+   flex-direction:row; 
+}
+
+.design{
+    align-items:center;
+    justify-content:space-between ;
+}
+
+.design article{
+    width:350px;
+}
+
+.design article h1{
+    font-size:70px;
+    line-height:90%;
+    font-weight:400;
+    color:#333366;
+}
+
+.design article h2{
+    font-size:30px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    line-height:200%;
+    color:#3399cc;
+}
+
+.design article p{
+    color:#3399cc;
+    margin:10px 0 40px;
+}
+
+.design div img{
+    
+    width:600px;
+}
+
+body{
+    background-image:url("./image/bolha.png");
+    background-repeat:no-repeat;
+    background-position:left center;
+}
+
+footer ul li{
+ margin:0 30px 0 0;
+    
+}
+
+footer ul li a img{
+    width:30px;
+}
+
+@media(max-width:1900px){
+   body{
+   background-size:880px ;
+   }
+}
+
+@media(max-width:1550px){
+    body{
+      background-size:800px;
+    }
+}
+
+@media(max-width:1404px){
+    body{
+       background-size:750px ;
+    }
+}
+
+@media(max-width:1293px){
+    body{
+        background-size:600px ;
+    }
+}
+
+@media(max-width:1100){
+    body{
+        background-position-x:-100px;
+    }
+}
+
+@media(max-width:1150px){
+    .container{
+        width:950px;
+    }
+}
+
+@media(max-width:1024px){
+    .container{
+        width:850px;
+    }
+    
+    .design div img{
+        width:600px;
+    }
+}
+
+@media(max-width:915px){
+    .container{
+        width:600px ;
+    }
+    
+    .row{
+        display:flex;
+        flex-direction:column;
+    }
+    
+    header nav{
+        margin:30px 0;
+    }
+    
+    body{
+        background-position:left -200px;
+       background-color:#b1f4ff;
+    }
+    
+   .design article{
+       width:100%;
+   } 
+   
+   footer .row{
+       flex-direction:row;
+       justify-content:center;
+   }
+   
+   .design div img{
+       width:100%;
+       margin:30px 0 0 0;
+   }
+}
+
+@media(max-width:665px){
+    .container{
+        width:400px;
+    }
+    
+}
+
+@media(max-width:450px){
+    .container{
+        width:290px;
+    }
+    
+    header nav ul{
+    
+    flex-direction:column;
+   
+    
+ }
+ 
+ header nav ul li a{
+     margin:20px 0;
+     padding-left:38% ;
+     
+ }
+ 
+ header nav{
+     background:#fff;
+     width:100%;
+     padding:10px 0 20px;
+     box-shadow:0px 10px 30px rgba(0,0,0,0.15) ;
+        
+     
+ }
+ 
+ .btn.btn-laranja{
+    margin-left:30%;
+    
+ }
+ 
+ header nav ul li{
+     padding:15px 0 15px 0;
+ }
+ 
+     
+ }
+
+
